@@ -1,0 +1,34 @@
+ .sep {
+    float:left;
+    
+    margin-bottom: 9px;
+    margin-right: 6px;
+
+}
+
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 50px; /* .push must be the same height as .footer */
+        padding: 5px;
+}
+.footer{
+    text-align:center;
+        background: #7d8182 ;
+	color:#fff;
+}
+
+.mov{
+     
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 9px;
+    margin-right: 6px;
+}
